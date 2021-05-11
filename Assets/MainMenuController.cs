@@ -27,6 +27,10 @@ public class MainMenuController : MonoBehaviour
         _audioMixer.SetFloat("MasterVolume", value);
     }
 
+    public void ChangePlayerColor(Button button)
+    {
+        _materialPlayer.color = button.GetComponent<Image>().color;
+    }
     public void Exit()
     {
         Application.Quit();
