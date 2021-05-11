@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e345894f4c764b542a4f4b3692e63b82, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  PlayerSettingsData:
+    ResolutionsList:
+    - 640x480
+    - 720x480
+    - 720x576
+    - 800x600
+    - 1024x768
+    - 1152x864
+    - 1176x664
+    - 1280x720
+    - 1280x768
+    - 1280x800
+    - 1280x960
+    - 1280x1024
+    - 1360x768
+    - 1366x768
+    - 1440x900
+    - 1600x900
+    - 1600x1024
+    - 1600x1200
+    - 1680x1050
+    - 1920x1080
+    - 1920x1200
+    - 1920x1440
+    - 2560x1440
+    CurrentResolution: 22
+    IsFullScreenMode: 1
