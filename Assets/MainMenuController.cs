@@ -8,6 +8,8 @@ public class MainMenuController : MonoBehaviour
 {
     [SerializeField] private Slider _volumeSlider;
     [SerializeField] private AudioMixer _audioMixer;
+    [SerializeField] private Material _materialPlayer;
+
     
     private void Start()
     {
