@@ -22,6 +22,8 @@ public class PauseMenuController : MonoBehaviour
     private void Start()
     {
         _pausePanel.SetActive(false);
+        _audioMixer.GetFloat("MasterVolume", out var masterVolume);
+        _volumeSlider.value = masterVolume;
     }
 
     private void Update()
